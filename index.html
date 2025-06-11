@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Header</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js">
+  </script>
+  
+
+</head>
+<body>
+
+    <div class="header">
+        <div class="logo">
+          <img src="img/1.png" alt="Logo">
+          <div class="date text-align: center;">Saturday, March 22, 2025</div>
+          <div id="mobile-menu" style="display: none;" class="mobile-menu-content"> 
+            <ul class="list-unstyled m-0 p-0">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Newest <img src="img/6.png" alt="Chevron Down" class="chevron-icon"></a></li>
+                <li><a href="#">MATCH SCHEDULE <img src="img/6.png" alt="Chevron Down" class="chevron-icon"></a></li>
+                <li><a href="#">RESULT <img src="img/6.png" alt="Chevron Down" class="chevron-icon"></a></li>
+                <li><a href="#">TOURNAMENT <img src="img/6.png" alt="Chevron Down" class="chevron-icon"></a></li>
+                <li><a href="#">TEAM <img src="img/6.png" alt="Chevron Down" class="chevron-icon"></a></li>
+                <li><a href="#">TRANSFER <img src="img/6.png" alt="Chevron Down" class="chevron-icon"></a></li>
+                <li><a href="#">HOT NEWS <img src="img/6.png" alt="Chevron Down" class="chevron-icon"></a></li>
+                <li><a href="#">ENGLAND  <img src="img/6.png"alt="Chevron Down" class="chevron-icon"></a></li>
+                <li><a href="#">SPAIN <img src="img/6.png" alt="Chevron Down" class="chevron-icon"></a></li>
+                <li><a href="#">ITAL<img src="img/6.png" alt="Chevron Down" class="chevron-icon"></a></li>
+                <li><a href="#">GERMANY <img src="img/6.png" alt="Chevron Down" class="chevron-icon"></a></li>
+                <li><a href="#">FRANCE <img src="img/6.png" alt="Chevron Down" class="chevron-icon"></a></li>
+                <li><a href="#">Video highlight <img src="img/6.png" alt="Chevron Down" class="chevron-icon"></a></li>
+                <li><a href="#">Ranking <img src="img/6.png" alt="Chevron Down" class="chevron-icon"></a></li>
+                <li><a href="#">1 minute match clip <img src="img/6.png" alt="Chevron Down" class="chevron-icon"></a></li>
+                <li><a href="#">Live report <img src="img/6.png" alt="Chevron Down" class="chevron-icon"></a></li>
+                <li><a href="#">Other football<img src="img/6.png" alt="Chevron Down" class="chevron-icon"></a></li>
+                <li><a href="#">Featured Team <img src="img/6.png" alt="Chevron Down" class="chevron-icon"></a></li>
+                <li><a href="#">Goal video <img src="img/6.png" alt="Chevron Down" class="chevron-icon"></a></li>
+                <li><a href="#">Football news <img src="img/6.png" alt="Chevron Down" class="chevron-icon"></a></li>
+              </ul>
+          </div>
+        </div>
+
+        <div class="center">
+            <img src="img/4.png" alt="center">
+            <img src="img/3.png" alt="Field Icon" class="icon">
+          </div>
+        
+          <div class="right">
+              <div class="search-box">
+                <input type="text" placeholder="Search ...">
+              </div>
+              <div class="login">
+                <img src="img/5.png" alt="User Icon" class="login-icon">
+                Log In
+              </div>
+              <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+            </div>
+
+            <!-- banner2 -->
+            <div class="nav-icon-wrapper">
+                <img src="img/9.png" alt="use" class="icon-9">
+                <img src="img/10.png" alt="icon2" class="icon-10">
+              </div>
+            </div>
+              
+
+
+
+    <div class="red-nav">
+        <div class="nav-container">
+         <div class="nav-left">
+          <a href="#" class="home-icon">
+            <img src="img/7.png" alt="Home" style="height: 24px; width: 24px;">
+              </a>
+               </div>
+                  <ul class="nav-menu">
+                    <li class="nav-item"><a href="#" class="nav-link">NEWEST</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">MATCH SCHEDULE</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">RESULT</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">TOURNAMENT</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link dropdown">TEAM</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">TRANSFER</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link dropdown">HOT NEWS</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link dropdown">ENGLAND</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link dropdown">SPAIN</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link dropdown">ITALY</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link dropdown">GERMANY</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link dropdown">FRANCE</a></li>
+                  </ul>
+                  <div class="nav-img-item">
+                    <img src="img/11.png" alt="Icon" class="nav-img-11">
+                    <img src="img/12.png" alt="Icon" class="nav-img-12">
+                  </div>
+                  <div class="nav-right" style="position: relative;">
+                    <button class="menu-toggle-btn" id="menu-toggle-btn" onclick="toggleDropdownMenu(event)">☰</button>
+                    <ul class="dropdown-menu-custom" id="dropdown-menu-list">
+                        <li>
+                          <div class="dropdown-grid">
+                            <div class="dropdown-col">
+                              <div class="dropdown-title">Home</div>
+                              <a href="#">Hot News</a>
+                              <a href="#">Commentary</a>
+                              <a href="#">Live</a>
+                            </div>
+                            <div class="dropdown-col">
+                              <div class="dropdown-title">Predictions</div>
+                              <a href="#">English Football Commentary</a>
+                              <a href="#">Spanish Football Commentary</a>
+                              <a href="#">Euro Commentary</a>
+                              <a href="#">Italian Football Commentary</a>
+                              <a href="#" class="dropdown-more">See more</a>
+                            </div>
+                            <div class="dropdown-col">
+                              <div class="dropdown-title">Vietnam</div>
+                              <a href="#">V-League</a>
+                              <a href="#">LTĐ V-League</a>
+                              <a href="#">Vietnam U23</a>
+                              <a href="#">V-League Results</a>
+                              <a href="#" class="dropdown-more">See more</a>
+                            </div>
+                            <div class="dropdown-col">
+                              <div class="dropdown-title">England</div>
+                              <a href="#">Premier League</a>
+                              <a href="#">Premier League Results</a>
+                              <a href="#">Premier League Rankings</a>
+                              <a href="#" class="dropdown-more">See more</a>
+                            </div>
+                            <div class="dropdown-col">
+                              <div class="dropdown-title">Spain</div>
+                              <a href="#">La Liga</a>
+                              <a href="#">News</a>
+                              <a href="#">La Liga Results</a>
+                              <a href="#">La Liga Rankings</a>
+                              <a href="#" class="dropdown-more">See more</a>
+                            </div>
+                            <div class="dropdown-col">
+                              <div class="dropdown-title">Europe</div>
+                              <a href="#">Cup C1</a>
+                              <a href="#">News</a>
+                              <a href="#">C1 Fixtures</a>
+                              <a href="#">Cup C1 Results</a>
+                              <a href="#" class="dropdown-more">See more</a>
+                            </div>
+                            <!-- Thêm các cột khác tương tự -->
+                          </div>
+                        </li>
+                      </ul>
+
+                    <button class="mobile-nav-toggle" onclick="toggleRedNav()">☰</button>
+                  </div>
+                </div>
+              </div>
+
+
+<!-- Banner 3: Ảnh banner mới, chỉ chú thích, không hiển thị trên giao diện -->
+<div class="banner-image" style="background: url('img/13.png') center/cover no-repeat; position: relative; min-height: 180px;">
+    <div class="banner-match">
+        <button class="banner-arrow left">
+            <img src="img/20.png" alt="Prev" style="height:32px;width:32px;">
+          </button>
+      <div class="banner-content">
+        <img src="img/15.png" alt="UEFA Champions League" class="banner-ucl-logo">
+        <div class="banner-title">UEFA Champions League Final</div>
+        <img src="img/18.png" alt="Banner dưới tiêu đề" class="banner-title-img" style="margin: 8px 0; height: 32px;">
+        <div class="banner-time">
+          <span class="banner-hour">02:00</span>
+          <span class="banner-date">01/06/2025</span>
+        </div>
+        <div class="banner-menu">
+          <a href="#" class="banner-menu-item">STATISTICAL</a>
+          <a href="#" class="banner-menu-item">COMMENTS</a>
+        </div>
+      </div>
+      <img src="img/16.png" alt="Real Madrid" class="banner-team-logo left-logo">
+      <img src="img/17.png" alt="Barcelona" class="banner-team-logo1 right-logo">
+      <button class="banner-arrow right">
+        <img src="img/19.png" alt="Next" style="height:32px;width:32px;">
+      </button>
+    </div>
+    <img src="img/14.png" alt="Banner dưới tiêu đề" class="banner-title-img1">
+    <div class="logo-slider-background">
+        <div class="logo-slider-container">
+            <img src="img/31.png" alt="" class="logo-divider">
+            <img src="img/21.png" alt="Premier League" class="league-logo">
+            <img src="img/31.png" alt="" class="logo-divider">
+            <img src="img/22.png" alt="Europa League" class="league-logo">
+            <img src="img/31.png" alt="" class="logo-divider">
+            <img src="img/23.png" alt="La Liga" class="league-logo">
+            <img src="img/31.png" alt="" class="logo-divider">
+            <img src="img/24.png" alt="Serie A" class="league-logo">
+            <img src="img/31.png" alt="" class="logo-divider">
+            <img src="img/25.png" alt="Bundesliga" class="league-logo">
+            <img src="img/31.png" alt="" class="logo-divider">
+            <img src="img/26.png" alt="Ligue 1" class="league-logo">
+            <img src="img/31.png" alt="" class="logo-divider">
+            <img src="img/27.png" alt="World Cup" class="league-logo">
+            <img src="img/31.png" alt="" class="logo-divider">
+            <img src="img/28.png" alt="Champions League" class="league-logo">
+            <img src="img/31.png" alt="" class="logo-divider">
+            <img src="img/29.png" alt="Euro" class="league-logo">
+            <img src="img/31.png" alt="" class="logo-divider">
+            <img src="img/30.png" alt="Copa America" class="league-logo">
+            <img src="img/31.png" alt="" class="logo-divider">
+          </div>
+      </div>
+    </div>
+
+<!-- HOT NEWS SECTION -->
+<div class="container my-4">
+    <div class="row">
+      <div class="col-12">
+        <div class="hotnews-banner-wrapper">
+          <img src="img/40.png" alt="Hot News Banner" class="hotnews-banner-img">
+          <div class="hotnews-banner-content">
+            <img src="img/43.png" alt="Hot News Icon" class="hotnews-icon">
+            <span class="hotnews-title">HOT NEWS</span>
+            <img src="img/42.png" alt="Chevron Down" class="hotnews-chevron">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-12 mb-3">
+        <!-- Card 1 -->
+        <div class="hotnews-img-wrapper-separate mb-2">
+            <img src="img/35.png" alt="News 1" class="hotnews-img hotnews-img-35">
+            <img src="img/44.png" alt="Play" class="hotnews-play-icon">
+        </div>
+        <div class="hotnews-text-wrapper mb-4">
+            <div class="hotnews-card-title hotnews-card-title-35">
+            Barcelona's breathtaking comeback: Szczesny's mistake and Flick's improvisation.
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="hotnews-img-wrapper-separate mb-2">
+            <img src="img/36.png" alt="News 2" class="hotnews-img hotnews-img-36">
+            <img src="img/44.png" alt="Play" class="hotnews-play-icon">
+        </div>
+        <div class="hotnews-text-wrapper mb-4">
+            <div class="hotnews-card-desc hotnews-card-desc-36">
+            Football Video Man City vs Crystal Palace: 7 crazy goals, unbelievable comeback (EPL 2025).
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-12 mb-3">
+        <!-- Card 3 -->
+        <div class="hotnews-img-wrapper-separate mb-2">
+            <img src="img/37.png" alt="News 3" class="hotnews-img hotnews-img-37">
+            <img src="img/44.png" alt="Play" class="hotnews-play-icon hotnews-play-xl">
+        </div>
+        <div class="hotnews-text-wrapper mb-4">
+            <div class="hotnews-card-desc hotnews-card-desc-37">
+            Columbus - Inter Miami football video: Super goal with...shoulder, Messi tries hard (MLS)
+          </div>
+        </div>
+        <div class="hotnews-more-btn-wrapper">
+          <button class="hotnews-more-btn">
+            See more news <img src="img/42.png" alt="Chevron Down" class="hotnews-more-chevron">
+          </button>
+        </div>
+      </div>
+      <div class="col-md-3 col-12 mb-3">
+        <!-- Card 4 -->
+        <div class="hotnews-img-wrapper-separate mb-2">
+            <img src="img/38.png" alt="News 4" class="hotnews-img hotnews-img-38">
+            <img src="img/44.png" alt="Play" class="hotnews-play-icon">
+        </div>
+        <div class="hotnews-text-wrapper mb-4">
+            <div class="hotnews-card-desc hotnews-card-desc-38">
+            Football video Las Palmas - Atletico Madrid: Painful blow at minute 90+3 (La Liga).
+          </div>
+        </div>
+        <!-- Card 5 -->
+        <div class="hotnews-img-wrapper-separate mb-2">
+            <img src="img/39.png" alt="News 5" class="hotnews-img hotnews-img-39">
+            <img src="img/44.png" alt="Play" class="hotnews-play-icon">
+        </div>
+        <div class="hotnews-text-wrapper mb-4">
+            <div class="hotnews-card-desc hotnews-card-desc-39">
+            Football video Aston Villa - Newcastle: Second half disaster (Premier League).
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+ 
+<div class="news-section">
+  <div class="news-section-title">
+    <span class="highlight">
+      <img src="img/43.png" alt="icon" style="width:18px;vertical-align:middle;margin-right:4px;">
+      NEWEST NEWS
+      <img src="img/42.png" alt="chevron" class="chevron">
+    </span>
+  </div>
+  <ul class="news-list">
+    <li class="news-main">
+      <img src="img/45.png" alt="Main News" class="news-main-img">
+      <div class="news-main-content">
+        <div class="news-main-headline">
+          Live football Barcelona - Real Madrid: Coach Flick finalizes the squad (King's Cup Final)
+        </div>
+        <div class="news-main-desc">
+          Barcelona are aiming for a quadruple after beating Real Madrid in January to win the Spanish Super Cup. After tonight's final, Barca will play in the Champions League semi-finals and have the advantage in the La Liga title race.
+          Barca have only lost one match since the beginning of the year, losing to Dortmund in the second leg of the Champions League quarter-finals after winning 4-0 in the first leg and playing "relaxed" in the second leg. In the Copa del Rey alone, Barcelona have scored 4 goals or more in every round...
+        </div>
+        <div class="news-main-time">4 hours ago</div>
+      </div>
+    </li>
+    <li class="news-item">
+      <img src="img/47.png" alt="News 2" class="news-thumb">
+      <div class="news-item-content">
+        <div class="news-item-headline">
+          Tottenham wants to prevent Liverpool from winning the championship early, Slot does not dare to claim to be a legend
+        </div>
+        <div class="news-item-desc">
+          Coaches Arne Slot and Ange Postecoglou made notable statements before the Liverpool - Tottenham match (10:30 p.m., April 27), a match that will determine the early Premier League championship of the "Reds"...
+        </div>
+        <div class="news-item-time">6 hours ago</div>
+      </div>
+    </li>
+    <li class="news-item">
+      <img src="img/48.png" alt="News 3" class="news-thumb">
+      <div class="news-item-content">
+        <div class="news-item-headline">
+          Football video Nam Dinh - Binh Duong: The final blow in the second half, consolidating the top position (V-League)
+        </div>
+        <div class="news-item-desc">
+          (Round 20 V-League) Nam Dinh needs to win to avoid being caught up by Hanoi at the top of the table. Nam Dinh have been in poor scoring form since the start of the year and they continued to be unlucky in the early stages of the match. Brenner's close-range shot went over the bar in the second minute, while Van Vi and Ly Cong Hoang Anh either hit a Binh Duong player or shot...
+        </div>
+        <div class="news-item-time">8 hours ago</div>
+      </div>
+    </li>
+    <li class="news-item">
+      <img src="img/46.png" alt="News 4" class="news-thumb">
+      <div class="news-item-content">
+        <div class="news-item-headline">
+          Football video PSG - Nice: 32 surprising shots, "The King" receives a shock (Ligue 1)
+        </div>
+        <div class="news-item-desc">
+          Despite being champions early, PSG still fielded a very strong squad when hosting Nice. PSG will host Nice at home in round 31 of Ligue 1. Despite being champions early, coach Luis Enrique still fielded a very strong squad. On the attack, Dembele and Doue will combine with Kvaratskhelia to attack the opponent's defense. The away team is also very proactive in their defense with a 4-3-2-1 formation...
+        </div>
+        <div class="news-item-time">5 hours ago</div>
+      </div>
+    </li>
+     <li class="news-item">
+      <img src="img/49.png" alt="News 4" class="news-thumb">
+      <div class="news-item-content">
+        <div class="news-item-headline">
+MU is about to close the Cunha deal incredibly quickly, Barca has a "sharp weapon" to compete with Real        </div>
+        <div class="news-item-desc">
+          Manchester United are likely to sign striker Matheus Cunha very soon, before the end of the season. Why can this transfer be completed so soon? Today's Football 24h hot news will bring readers the latest details of this deal....
+        </div>
+        <div class="news-item-time">6 hours ago</div>
+      </div>
+    </li>
+  </ul>
+</div>
+<div class="hotnews-more-btn-wrapper">
+  <button class="hotnews-more-btn">
+    See more news <img src="img/42.png" alt="Chevron Down" class="hotnews-more-chevron">
+  </button>
+</div>
+<div class="light-line"></div>
+
+<!-- ...existing code... -->
+<div class="main-flex-wrapper">
+  <!-- Schedule block bên trái -->
+  <div class="schedule-box">
+    <div class="schedule-title">
+      MATCH SCHEDULE - RESULTS
+    </div>
+    <div class="schedule-dropdowns">
+      <select>
+        <option>Premier League</option>
+        <option>La Liga</option>
+        <option>Serie A</option>
+      </select>
+    </div>
+    <!-- Replace the current SERIE A block with this version for logos and style -->
+     <div style="background: #ffe1b3; font-weight: bold; padding: 8px 18px; margin: 18px 0 0 0; border-radius: 8px;">
+  Premier League - Round 34
+  <img src="img/6.png" alt="Chevron Down" style="height: 14px; margin-left: 4px;">
+</div>
+<div style="margin-top: 12px; font-weight: 600; color: #000; display: flex; justify-content: center;">
+  <span style="background: #eee; border-radius: 8px; padding: 2px 12px; font-size: 1rem; font-weight: 600;">26/04/2025</span>
+</div>
+<div style="display: flex; align-items: center; justify-content: space-between; background: #f8f8f8; border-radius: 8px; padding: 6px 12px; margin: 10px 0;">
+  <!-- BÊN TRÁI -->
+  <div style="display: flex; align-items: center; gap: 6px; min-width: 30%;">
+    <span>Chelsea</span>
+    <img src="img/chel.png" alt="Chelsea" style="height:28px;width:28px;object-fit:contain;">
+  </div>
+
+  <!-- Ở GIỮA: TỶ SỐ -->
+  <div style="display: flex; align-items: center; justify-content: center; min-width: 80px;">
+    <span style="background: #eaffea; border-radius: 12px; padding: 2px 14px; font-weight: bold; color: #1a9100; font-size: 1.1rem; border: 2px solid #b6f5b6;">
+      1 - 0
+    </span>
+  </div>
+
+  <!-- BÊN PHẢI -->
+  <div style="display: flex; align-items: center; gap: 6px; min-width: 30%; justify-content: flex-end;">
+    <img src="img/eve.png" alt="Everton" style="height:28px;width:28px;object-fit:contain;">
+    <span>Everton</span>
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; justify-content: space-between; background: #f8f8f8; border-radius: 8px; padding: 6px 12px; margin: 10px 0;">
+  <!-- BÊN TRÁI -->
+  <div style="display: flex; align-items: center; gap: 6px; min-width: 30%;">
+    <span>Newcastle United</span>
+    <img src="img/new.png" alt="Chelsea" style="height:28px;width:28px;object-fit:contain;">
+  </div>
+
+  <!-- Ở GIỮA: TỶ SỐ -->
+  <div style="display: flex; align-items: center; justify-content: center; min-width: 80px;">
+    <span style="background: #eaffea; border-radius: 12px; padding: 2px 14px; font-weight: bold; color: #1a9100; font-size: 1.1rem; border: 2px solid #b6f5b6;">
+      3 - 0
+    </span>
+  </div>
+
+  <!-- BÊN PHẢI -->
+  <div style="display: flex; align-items: center; gap: 6px; min-width: 30%; justify-content: flex-end;">
+    <img src="img/if.png" alt="Everton" style="height:28px;width:28px;object-fit:contain;">
+    <span>Ipswich Town</span>
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; justify-content: space-between; background: #f8f8f8; border-radius: 8px; padding: 6px 12px; margin: 10px 0;">
+  <!-- BÊN TRÁI -->
+  <div style="display: flex; align-items: center; gap: 6px; min-width: 30%;">
+    <span>Brighton </span>
+    <img src="img/bri.png" alt="Chelsea" style="height:28px;width:28px;object-fit:contain;">
+  </div>
+
+  <!-- Ở GIỮA: TỶ SỐ -->
+  <div style="display: flex; align-items: center; justify-content: center; min-width: 80px;">
+    <span style="background: #eaffea; border-radius: 12px; padding: 2px 14px; font-weight: bold; color: #1a9100; font-size: 1.1rem; border: 2px solid #b6f5b6;">
+      3 - 2
+    </span>
+  </div>
+
+  <!-- BÊN PHẢI -->
+  <div style="display: flex; align-items: center; gap: 6px; min-width: 30%; justify-content: flex-end;">
+    <img src="img/clubs/everton.png" alt="Everton" style="height:28px;width:28px;object-fit:contain;">
+    <span>West Ham United</span>
+  </div>
+</div>
+
+<div style="margin-top: 12px; font-weight: 600; color: #000; display: flex; justify-content: center;">
+  <span style="background: #eee; border-radius: 8px; padding: 2px 12px; font-size: 1rem; font-weight: 600;">27/04/2025</span>
+</div>
+<div style="display: flex; align-items: center; justify-content: space-between; background: #f8f8f8; border-radius: 8px; padding: 6px 12px; margin: 10px 0;">
+  <!-- BÊN TRÁI -->
+  <div style="display: flex; align-items: center; gap: 6px; min-width: 30%;">
+    <span>AFC Bournemouth</span>
+    <img src="img/bou.png" alt="Chelsea" style="height:28px;width:28px;object-fit:contain;">
+  </div>
+
+  <!-- Ở GIỮA: TỶ SỐ -->
+  <div style="display: flex; align-items: center; justify-content: center; min-width: 80px;">
+    <span style="background: #eaffea; border-radius: 12px; padding: 2px 14px; font-weight: bold; color: #1a9100; font-size: 1.1rem; border: 2px solid #b6f5b6;">
+       - 
+    </span>
+  </div>
+
+  
+  <!-- BÊN PHẢI -->
+  <div style="display: flex; align-items: center; gap: 6px; min-width: 30%; justify-content: flex-end;">
+    <img src="img/mu.png" alt="Everton" style="height:28px;width:28px;object-fit:contain;">
+    <span>Manchester United</span>
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; justify-content: space-between; background: #f8f8f8; border-radius: 8px; padding: 6px 12px; margin: 10px 0;">
+  <!-- BÊN TRÁI -->
+  <div style="display: flex; align-items: center; gap: 6px; min-width: 30%;">
+    <span>Liverpool</span>
+    <img src="img/liv.png" alt="Chelsea" style="height:28px;width:28px;object-fit:contain;">
+  </div>
+
+  <!-- Ở GIỮA: TỶ SỐ -->
+  <div style="display: flex; align-items: center; justify-content: center; min-width: 80px;">
+    <span style="background: #eaffea; border-radius: 12px; padding: 2px 14px; font-weight: bold; color: #1a9100; font-size: 1.1rem; border: 2px solid #b6f5b6;">
+       - 
+    </span>
+  </div>
+
+  
+  <!-- BÊN PHẢI -->
+  <div style="display: flex; align-items: center; gap: 6px; min-width: 30%; justify-content: flex-end;">
+    <img src="img/tot.png" alt="Everton" style="height:28px;width:28px;object-fit:contain;">
+    <span>Tottenham Hotspur</span>
+  </div>
+</div>
+
+<div style="background: #ffe1b3; font-weight: bold; padding: 8px 18px; margin: 18px 0 0 0; border-radius: 8px;">
+LALIGA - Round 34
+  <img src="img/6.png" alt="Chevron Down" style="height: 14px; margin-left: 4px;">
+</div>
+
+<div style="margin-top: 12px; font-weight: 600; color: #000; display: flex; justify-content: center;">
+  <span style="background: #eee; border-radius: 8px; padding: 2px 12px; font-size: 1rem; font-weight: 600;">03/05/2025</span>
+</div>
+
+<div style="display: flex; align-items: center; justify-content: space-between; background: #f8f8f8; border-radius: 8px; padding: 6px 12px; margin: 10px 0;">
+  <!-- BÊN TRÁI -->
+  <div style="display: flex; align-items: center; gap: 6px; min-width: 30%;">
+    <span>Deportivo Alavés</span>
+    <img src="img/depor.png" alt="Chelsea" style="height:28px;width:28px;object-fit:contain;">
+  </div>
+
+  <!-- Ở GIỮA: TỶ SỐ -->
+  <div style="display: flex; align-items: center; justify-content: center; min-width: 80px;">
+    <span style="background: #eaffea; border-radius: 12px; padding: 2px 14px; font-weight: bold; color: #1a9100; font-size: 1.1rem; border: 2px solid #b6f5b6;">
+       - 
+    </span>
+  </div>
+
+  <!-- BÊN PHẢI -->
+  <div style="display: flex; align-items: center; gap: 6px; min-width: 30%; justify-content: flex-end;">
+    <img src="img/at.png" alt="Everton" style="height:28px;width:28px;object-fit:contain;">
+    <span>Atlético Madrid</span>
+  </div>
+</div>
+
+<div style="margin-top: 12px; font-weight: 600; color: #000; display: flex; justify-content: center;">
+  <span style="background: #eee; border-radius: 8px; padding: 2px 12px; font-size: 1rem; font-weight: 600;">28/04/2025</span>
+</div>
+
+<div style="display: flex; align-items: center; justify-content: space-between; background: #f8f8f8; border-radius: 8px; padding: 6px 12px; margin: 10px 0;">
+  <!-- BÊN TRÁI -->
+  <div style="display: flex; align-items: center; gap: 6px; min-width: 30%;">
+    <span>Real Valladolid</span>
+    <img src="img/valado.png" alt="Chelsea" style="height:28px;width:28px;object-fit:contain;">
+  </div>
+
+  <!-- Ở GIỮA: TỶ SỐ -->
+  <div style="display: flex; align-items: center; justify-content: center; min-width: 80px;">
+    <span style="background: #eaffea; border-radius: 12px; padding: 2px 14px; font-weight: bold; color: #1a9100; font-size: 1.1rem; border: 2px solid #b6f5b6;">
+       - 
+    </span>
+  </div>
+
+  <!-- BÊN PHẢI -->
+  <div style="display: flex; align-items: center; gap: 6px; min-width: 30%; justify-content: flex-end;">
+    <img src="img/bax.png" alt="Everton" style="height:28px;width:28px;object-fit:contain;">
+    <span>Barcelona</span>
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; justify-content: space-between; background: #f8f8f8; border-radius: 8px; padding: 6px 12px; margin: 10px 0;">
+  <!-- BÊN TRÁI -->
+  <div style="display: flex; align-items: center; gap: 6px; min-width: 30%;">
+    <span>Real Madrid</span>
+    <img src="img/real.png" alt="Chelsea" style="height:28px;width:28px;object-fit:contain;">
+  </div>
+
+  <!-- Ở GIỮA: TỶ SỐ -->
+  <div style="display: flex; align-items: center; justify-content: center; min-width: 80px;">
+    <span style="background: #eaffea; border-radius: 12px; padding: 2px 14px; font-weight: bold; color: #1a9100; font-size: 1.1rem; border: 2px solid #b6f5b6;">
+       - 
+    </span>
+  </div>
+
+  <!-- BÊN PHẢI -->
+  <div style="display: flex; align-items: center; gap: 6px; min-width: 30%; justify-content: flex-end;">
+    <img src="img/celta.png" alt="Everton" style="height:28px;width:28px;object-fit:contain;">
+    <span>Celta de Vigo</span>
+  </div>
+</div>
+
+     <div style="background: #ffe1b3; font-weight: bold; padding: 8px 18px; margin: 18px 0 0 0; border-radius: 8px;">
+SERIE A - Round 34
+  <img src="img/6.png" alt="Chevron Down" style="height: 14px; margin-left: 4px;">
+</div>
+<div style="margin-top: 12px; font-weight: 600; color: #000; display: flex; justify-content: center;">
+  <span style="background: #eee; border-radius: 8px; padding: 2px 12px; font-size: 1rem; font-weight: 600;">28/04/2025</span>
+</div>
+<div style="display: flex; align-items: center; justify-content: space-between; background: #f8f8f8; border-radius: 8px; padding: 6px 12px; margin: 10px 0;">
+  <!-- BÊN TRÁI -->
+  <div style="display: flex; align-items: center; gap: 6px; min-width: 30%;">
+    <span>Inter Milan</span>
+    <img src="img/inter.png" alt="Chelsea" style="height:28px;width:28px;object-fit:contain;">
+  </div>
+
+  <!-- Ở GIỮA: TỶ SỐ -->
+  <div style="display: flex; align-items: center; justify-content: center; min-width: 80px;">
+    <span style="background: #eaffea; border-radius: 12px; padding: 2px 14px; font-weight: bold; color: #1a9100; font-size: 1.1rem; border: 2px solid #b6f5b6;">
+       - 
+    </span>
+  </div>
+
+  <!-- BÊN PHẢI -->
+  <div style="display: flex; align-items: center; gap: 6px; min-width: 30%; justify-content: flex-end;">
+    <img src="img/as.png" alt="Everton" style="height:28px;width:28px;object-fit:contain;">
+    <span>Roma</span>
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; justify-content: space-between; background: #f8f8f8; border-radius: 8px; padding: 6px 12px; margin: 10px 0;">
+  <!-- BÊN TRÁI -->
+  <div style="display: flex; align-items: center; gap: 6px; min-width: 30%;">
+    <span>Juventus</span>
+    <img src="img/clubs/chelsea.png" alt="Chelsea" style="height:28px;width:28px;object-fit:contain;">
+  </div>
+
+  <!-- Ở GIỮA: TỶ SỐ -->
+  <div style="display: flex; align-items: center; justify-content: center; min-width: 80px;">
+    <span style="background: #eaffea; border-radius: 12px; padding: 2px 14px; font-weight: bold; color: #1a9100; font-size: 1.1rem; border: 2px solid #b6f5b6;">
+       - 
+    </span>
+  </div>
+
+  <!-- BÊN PHẢI -->
+  <div style="display: flex; align-items: center; gap: 6px; min-width: 30%; justify-content: flex-end;">
+    <img src="img/monza.png" alt="Everton" style="height:28px;width:28px;object-fit:contain;">
+    <span>Monza</span>
+  </div>
+</div>
+<div style="margin-top: 12px; font-weight: 600; color: #000; display: flex; justify-content: center;">
+  <span style="background: #eee; border-radius: 8px; padding: 2px 12px; font-size: 1rem; font-weight: 600;">28/04/2025</span>
+</div>
+
+<div style="display: flex; align-items: center; justify-content: space-between; background: #f8f8f8; border-radius: 8px; padding: 6px 12px; margin: 10px 0;">
+  <!-- BÊN TRÁI -->
+  <div style="display: flex; align-items: center; gap: 6px; min-width: 30%;">
+    <span>Napoli</span>
+    <img src="img/napoli.png" alt="Chelsea" style="height:28px;width:28px;object-fit:contain;">
+  </div>
+
+  <!-- Ở GIỮA: TỶ SỐ -->
+  <div style="display: flex; align-items: center; justify-content: center; min-width: 80px;">
+    <span style="background: #eaffea; border-radius: 12px; padding: 2px 14px; font-weight: bold; color: #1a9100; font-size: 1.1rem; border: 2px solid #b6f5b6;">
+      - 
+    </span>
+  </div>
+
+  <!-- BÊN PHẢI -->
+  <div style="display: flex; align-items: center; gap: 6px; min-width: 30%; justify-content: flex-end;">
+    <img src="img/tori.png" alt="Everton" style="height:28px;width:28px;object-fit:contain;">
+    <span>Torino</span>
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; justify-content: space-between; background: #f8f8f8; border-radius: 8px; padding: 6px 12px; margin: 10px 0;">
+  <!-- BÊN TRÁI -->
+  <div style="display: flex; align-items: center; gap: 6px; min-width: 30%;">
+    <span>Atalanta</span>
+    <img src="img/attalan.png" alt="Chelsea" style="height:28px;width:28px;object-fit:contain;">
+  </div>
+
+  <!-- Ở GIỮA: TỶ SỐ -->
+  <div style="display: flex; align-items: center; justify-content: center; min-width: 80px;">
+    <span style="background: #eaffea; border-radius: 12px; padding: 2px 14px; font-weight: bold; color: #1a9100; font-size: 1.1rem; border: 2px solid #b6f5b6;">
+       - 
+    </span>
+  </div>
+
+  <!-- BÊN PHẢI -->
+  <div style="display: flex; align-items: center; gap: 6px; min-width: 30%; justify-content: flex-end;">
+    <img src="img/lece.png" alt="Everton" style="height:28px;width:28px;object-fit:contain;">
+    <span>Lecce</span>
+  </div>
+</div>
+
+  </div>
+
+
+  
+  <!-- Ranking block bên phải -->
+  <div class="ranking-box">
+    <div class="ranking-title">
+      RANKING
+    </div>
+    <div class="ranking-dropdowns">
+      <select>
+        <option>Premier League</option>
+        <option>La Liga</option>
+        <option>Serie A</option>
+      </select>
+      <select>
+        <option>Season 2024 - 2025</option>
+      </select>
+    </div>
+    <div class="ranking-table-wrapper">
+      <table class="ranking-table">
+        <thead>
+          <tr>
+            <th>TT</th>
+            <th>Team</th>
+            <th>M</th>
+            <th>W</th>
+            <th>D</th>
+            <th>L</th>
+            <th>G</th>
+            <th>CD</th>
+            <th>GD</th>
+            <th>P</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td><img src="img/liv.png" class="team-logo"> Liverpool</td>
+            <td>33</td><td>24</td><td>7</td><td>2</td><td>75</td><td>31</td><td>+44</td><td>79</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><img src="img/ars.png" class="team-logo"> Arsenal</td>
+            <td>34</td><td>18</td><td>13</td><td>3</td><td>63</td><td>29</td><td>+34</td><td>67</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td><img src="img/new.png" class="team-logo"> Newcastle United</td>
+            <td>34</td><td>18</td><td>13</td><td>3</td><td>63</td><td>29</td><td>+34</td><td>67</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td><img src="img/mc.png" class="team-logo"> Manchester City</td>
+            <td>34</td><td>18</td><td>13</td><td>3</td><td>63</td><td>29</td><td>+34</td><td>67</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td><img src="img/chel.png" class="team-logo"> Chelsea</td>
+            <td>34</td><td>18</td><td>13</td><td>3</td><td>63</td><td>29</td><td>+34</td><td>67</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td><img src="img/not.png" class="team-logo"> Nottingham Forest</td>
+            <td>34</td><td>18</td><td>13</td><td>3</td><td>63</td><td>29</td><td>+34</td><td>67</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td><img src="img/aton.png" class="team-logo"> Aston Villa</td>
+            <td>34</td><td>18</td><td>13</td><td>3</td><td>63</td><td>29</td><td>+34</td><td>67</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td><img src="img/full.png" class="team-logo"> Fulham</td>
+            <td>34</td><td>18</td><td>13</td><td>3</td><td>63</td><td>29</td><td>+34</td><td>67</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td><img src="img/bri.png" class="team-logo"> Brighton & Hove Albion</td>
+            <td>34</td><td>18</td><td>13</td><td>3</td><td>63</td><td>29</td><td>+34</td><td>67</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td><img src="img/bou.png" class="team-logo"> AFC Bournemouth</td>
+            <td>34</td><td>18</td><td>13</td><td>3</td><td>63</td><td>29</td><td>+34</td><td>67</td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td><img src="img/bren.png" class="team-logo">Brentford</td>
+            <td>34</td><td>18</td><td>13</td><td>3</td><td>63</td><td>29</td><td>+34</td><td>67</td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td><img src="img/cy.png" class="team-logo"> Crystal Palace</td>
+            <td>34</td><td>18</td><td>13</td><td>3</td><td>63</td><td>29</td><td>+34</td><td>67</td>
+          </tr><tr>
+            <td>13</td>
+            <td><img src="img/wol.png" class="team-logo"> Wolverhampton 
+Wanderers</td>
+            <td>34</td><td>18</td><td>13</td><td>3</td><td>63</td><td>29</td><td>+34</td><td>67</td>
+          </tr>
+          <tr>
+            <td>14</td>
+            <td><img src="img/eve.png" class="team-logo"> Everton</td>
+            <td>34</td><td>18</td><td>13</td><td>3</td><td>63</td><td>29</td><td>+34</td><td>67</td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td><img src="img/mu.png" class="team-logo"> Manchester United</td>
+            <td>34</td><td>18</td><td>13</td><td>3</td><td>63</td><td>29</td><td>+34</td><td>67</td>
+          </tr>
+          <!-- ...other teams... -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="light-line"></div>
+
+
+
+<!-- Responsive Premier League Football News Block (1440px desktop & mobile) -->
+<div class="pl-news-block">
+  <div class="pl-news-title">Premier League Football News</div>
+  <div class="pl-news-flex">
+    <!-- Main News Left -->
+    <div class="pl-news-main-imgbox">
+      <img src="img/50.png" alt="Main News" class="pl-news-main-img">
+    </div>
+    <!-- Main News Right -->
+    <div class="pl-news-main-content">
+      <div class="pl-news-main-headline">
+        Live football Barcelona - Real Madrid: Coach Flick finalizes the squad (King's Cup Final)
+      </div>
+      <div class="pl-news-main-time">6 hours ago</div>
+      <div class="pl-news-sub-flex">
+        <div class="pl-news-sub-imgbox">
+          <img src="img/51.png" alt="Arsenal News" class="pl-news-sub-img">
+        </div>
+        <div class="pl-news-sub-content">
+          <div class="pl-news-sub-headline">
+            Latest football news on the evening of April 26: Szczesny hopes Arsenal will not win the Champions League
+          </div>
+          <div class="pl-news-sub-time">7 hours ago</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- List News -->
+<li class="news-main">
+      <img src="img/52.png" alt="Main News" class="news-main-img">
+      <div class="news-main-content">
+        <div class="news-main-headline">
+Premier League hopes Liverpool will win the championship soon, Amorim easily "slips up" by praising MU (1 minute clip)        </div>
+        <div class="news-main-desc">
+          Liverpool will officially win the Premier League if they win at least 1 point in the match against Tottenham (10:30 p.m., April 27). In theory, Arsenal still has a chance to compete for the championship if Tottenham defeats coach Arne Slot's team...
+        </div>
+        <div class="news-main-time">9 hours ago</div>
+      </div>
+    </li>
+
+
+<li class="news-main">
+      <img src="img/47.png" alt="Main News" class="news-main-img">
+      <div class="news-main-content">
+        <div class="news-main-headline">
+Tottenham wants to prevent Liverpool from winning the championship early, Slot does not dare to claim to be a legend        </div>
+        <div class="news-main-desc">
+          Liverpool are on the verge of winning their 20th English national championship in history if they ...
+        </div>
+        <div class="news-main-time">9 hours ago</div>
+      </div>
+    </li>
+
+
+    <div class="hotnews-more-btn-wrapper">
+  <button class="hotnews-more-btn">
+    See more news <img src="img/42.png" alt="Chevron Down" class="hotnews-more-chevron">
+  </button>
+</div>
+<div class="light-line"></div>
+
+<div class="container">
+    <div class="euro-header" style="gap: 12px; padding: 8px 22px;">
+        <img src="img/uero.png" alt="Main News" style="width:32px;height:32px;object-fit:contain;border-radius:50%;background:#fff;">
+        <span style="display:flex;align-items:center;gap:8px;">
+          <svg viewBox="0 0 32 32" fill="none" style="width:32px;height:32px;"><text x="8" y="22" font-size="16" fill="#222" font-family="Arial"></text></svg>
+          <span style="font-size:1.4rem;font-weight:bold;color:#222;letter-spacing:1px;">EUROPEAN FOOTBALL</span>
+        </span>
+        <svg class="chevron" viewBox="0 0 24 24" style="width:28px;height:28px;margin-left:8px;"><path d="M7 10l5 5 5-5" stroke="#222" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+    </div>
+    <div class="euro-news-main">
+      <div class="euro-news-block-left"> 
+        <div class="euro-news-item">
+          <div class="euro-news-imgbox">
+  <img src="img/53.png" alt="Main News" class="news-main-img">          </div>
+          <div class="euro-news-content">
+            <div class="euro-news-headline">Coach Fabio Capello believes Arsenal will win the Champions League</div>
+            <div class="euro-news-desc">
+              Arsenal is a team that possesses the balance as well as other necessary and sufficient factors to be able to win the Champions League, according to..
+            </div>
+            <div class="euro-news-time">7 hours ago</div>
+          </div>
+        </div>
+        <div class="euro-news-item">
+          <div class="euro-news-imgbox">
+              <img src="img/55.png" alt="Main News" class="news-main-img">
+            <span class="euro-news-playicon"></span>
+          </div>
+          <div class="euro-news-content">
+            <div class="euro-news-headline">Exciting Serie A championship race: Inter Milan - Napoli scenario must go to penalty shootout</div>
+            <div class="euro-news-desc">
+              The Serie A title race is hotter than ever this season as Inter Milan and ...
+            </div>
+            <div class="euro-news-time">10 hours ago</div>
+          </div>
+        </div>
+      </div>
+      <div class="euro-news-block-right">
+        <div class="euro-news-item-right">
+          <div class="euro-news-imgbox-right">
+  <img src="img/54.png" alt="Main News" class="news-main-img">          </div>
+          <div class="euro-news-content-right">
+            <div class="euro-news-headline-right">Luis Figo believes Cristiano Ronaldo can play until he is 42 ...</div>
+            <div class="euro-news-time-right">5 hours ago</div>
+          </div>
+        </div>
+        <div class="euro-news-item-right">
+          <div class="euro-news-imgbox-right">
+  <img src="img/56.png" alt="Main News" class="news-main-img">            <span class="euro-news-playicon-right"></span>
+          </div>
+          <div class="euro-news-content-right">
+            <div class="euro-news-headline-right">El Clasico Barca - Real Madrid: One needs the King's Cup, the...</div>
+            <div class="euro-news-time-right">8 hours ago</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <div class="hotnews-more-btn-wrapper">
+  <button class="hotnews-more-btn">
+    See more news <img src="img/42.png" alt="Chevron Down" class="hotnews-more-chevron">
+  </button>
+</div>
+
+<div class="line-height"></div>
+
+<div class="container">
+    <div class="euro-header" style="gap: 12px; padding: 8px 22px;">
+        <img src="img/uero.png" alt="Main News" style="width:32px;height:32px;object-fit:contain;border-radius:50%;background:#fff;">
+        <span style="display:flex;align-items:center;gap:8px;">
+          <svg viewBox="0 0 32 32" fill="none" style="width:32px;height:32px;"><text x="8" y="22" font-size="16" fill="#222" font-family="Arial"></text></svg>
+          <span style="font-size:1.4rem;font-weight:bold;color:#222;letter-spacing:1px;">ASIAN FOOTBALL</span>
+        </span>
+        <svg class="chevron" viewBox="0 0 24 24" style="width:28px;height:28px;margin-left:8px;"><path d="M7 10l5 5 5-5" stroke="#222" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+    </div>
+    <div class="euro-news-main">
+      <div class="euro-news-block-left"> 
+        <div class="euro-news-item">
+          <div class="euro-news-imgbox">
+  <img src="img/57.png" alt="Main News" class="news-main-img">          </div>
+          <div class="euro-news-content">
+            <div class="euro-news-headline">Coach Fabio Capello believes Arsenal will win the Champions League</div>
+            <div class="euro-news-desc">
+              Arsenal is a team that possesses the balance as well as other necessary and sufficient factors to be able to win the Champions League, according to..
+            </div>
+            <div class="euro-news-time">7 hours ago</div>
+          </div>
+        </div>
+        <div class="euro-news-item">
+          <div class="euro-news-imgbox">
+              <img src="img/60.png" alt="Main News" class="news-main-img">
+            <span class="euro-news-playicon"></span>
+          </div>
+          <div class="euro-news-content">
+            <div class="euro-news-headline">Exciting Serie A championship race: Inter Milan - Napoli scenario must go to penalty shootout</div>
+            <div class="euro-news-desc">
+              The Serie A title race is hotter than ever this season as Inter Milan and ...
+            </div>
+            <div class="euro-news-time">10 hours ago</div>
+          </div>
+        </div>
+      </div>
+      <div class="euro-news-block-right">
+        <div class="euro-news-item-right">
+          <div class="euro-news-imgbox-right">
+  <img src="img/58.png" alt="Main News" class="news-main-img">          </div>
+          <div class="euro-news-content-right">
+            <div class="euro-news-headline-right">Luis Figo believes Cristiano Ronaldo can play until he is 42 ...</div>
+            <div class="euro-news-time-right">5 hours ago</div>
+          </div>
+        </div>
+        <div class="euro-news-item-right">
+          <div class="euro-news-imgbox-right">
+  <img src="img/59.png" alt="Main News" class="news-main-img">            <span class="euro-news-playicon-right"></span>
+          </div>
+          <div class="euro-news-content-right">
+            <div class="euro-news-headline-right">El Clasico Barca - Real Madrid: One needs the King's Cup, the...</div>
+            <div class="euro-news-time-right">8 hours ago</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hotnews-more-btn-wrapper">
+  <button class="hotnews-more-btn">
+    See more news <img src="img/42.png" alt="Chevron Down" class="hotnews-more-chevron">
+  </button>
+</div>
+
+
+
+<!-- Footer Start -->
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-col">
+      <a href="#" class="footer-link active">Home</a>
+      <a href="#">Hot News</a>
+      <a href="#">Video</a>
+      <a href="#">On the Pitch</a>
+      <a href="#" class="footer-link special">Live football</a>
+    </div>
+    <div class="footer-col">
+      <a href="#">Vietnam Football</a>
+      <a href="#">English Football</a>
+      <a href="#">European Football</a>
+      <a href="#">Spanish Football</a>
+      <a href="#">ITALIAN Football</a>
+    </div>
+    <div class="footer-col">
+      <a href="#">Comment</a>
+      <a href="#">Football Prediction</a>
+      <a href="#">Transfer</a>
+      <a href="#">Backstage</a>
+      <a href="#">Livescore</a>
+    </div>
+    <div class="footer-col">
+      <a href="#">Football Match Schedule</a>
+      <a href="#">Soccer Results</a>
+      <a href="#">FIFA Rankings</a>
+      <a href="#">Premier League Rankings</a>
+    </div>
+    <div class="footer-col">
+      <a href="#">introduce</a>
+      <a href="#">Terms of Use</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Contact Advertising</a>
+    </div>
+  </div>
+</footer>
+
+
+<footer class="footer-bottom">
+  <div class="footer-bottom-container">
+    <div class="footer-bottom-left">
+      <div class="footer-bottom-info">
+        © 2006. General electronic information website Bongdaumamua.vn<br>
+        MANAGING AGENCY: INCIT International Media Joint Stock Company<br>
+        License number: 1183/GP-TTDT issued on April 4, 2035 by Hanoi Department of Information and Communications, replacing license 259/GP-TTDT issued on April 7, 2035 by Hanoi Department of Information and Communications<br>
+        Content of cooperation information between ICON Company and Sports and Culture Electronic Newspaper - VNA.<br>
+        Chịu trách nhiệm: Ông Hoàng Phi Quân<br>
+        Address: 5th Floor, IN Building, 80 Duy Tan, Cau Giay District, Vinh City<br>
+        Email: mrtree@gmail.com<br>
+        Contact for advertising, copyright and related rights: mrtree@gmail.com
+      </div>
+      <div class="footer-bottom-links">
+        <a href="#" class="footer-bottom-link active">Contact Advertising</a>
+        <a href="#">Introduction</a>
+        <a href="#">Give Feedback</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Recruitment</a>
+      </div>
+    </div>
+    <div class="footer-bottom-divider"></div>
+    <div class="footer-bottom-right">
+      <div class="footer-bottom-social-title">FOLLOW US AT:</div>
+      <div class="footer-bottom-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+      <div class="footer-bottom-contact-title">ALL CONTACT INFORMATION:</div>
+      <div class="footer-bottom-contact">
+        <div><i class="fas fa-envelope"></i> abcde@gmail.com</div>
+        <div><i class="fas fa-phone"></i> +84 912 345678</div>
+        <div><i class="fas fa-phone"></i> +84 388 383838</div>
+      </div>
+      <img src="img/1.png" alt="Logo" class="footer-bottom-logo">
+    </div>
+  </div>
+</footer>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+  <!-- ...existing code... -->    
+
+      <script>
+        function toggleMenu() {
+          const menu = document.getElementById("mobile-menu");
+          if (menu.style.display === "none" || menu.style.display === "") {
+            menu.style.display = "block";
+          } else {
+            menu.style.display = "none";
+          }
+        }      
+
+        function toggleRedNav() {
+            // Function for mobile red navigation toggle
+            alert("Red navigation mobile menu would open here");
+          }
+
+          /* het banner 2*/ 
+          // Toggle dropdown menu for MENU button
+          function toggleDropdownMenu(event) {
+            event.stopPropagation();
+            event.preventDefault();
+            const menu = document.getElementById('dropdown-menu-list');
+            menu.classList.toggle('show');
+            // Đóng menu nếu click ra ngoài
+            document.addEventListener('click', function handler(e) {
+              if (!menu.contains(e.target) && e.target !== document.getElementById('menu-toggle-btn')) {
+                menu.classList.remove('show');
+                document.removeEventListener('click', handler);
+              }
+            });
+          }
+        </script>
+</body>
+</html>
